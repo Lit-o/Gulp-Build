@@ -1,0 +1,20 @@
+$col: #ccc;
+
+@import 'pre';
+
+h2 {
+  color: $col;
+  font-size: 24px;
+}
+body {
+  transition: all 0.4s ease-in;
+  
+
+}
+h1 {
+  &:hover {
+    color: #f77f;
+  };
+  font-family: Roboto;
+  font-size: 54px;
+}
